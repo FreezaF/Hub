@@ -1,0 +1,11 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.x {
+  width: 50px;
+  border: 15px solid green;
+  height: 50px;
+  padding: 75px;
+  background-color: green;
+}
