@@ -3,10 +3,11 @@ html {
   width: 100%;
   background-color: lightgreen;
 }
+
 .x {
   width: 50px;
   border: 15px solid green;
   height: 50px;
-  padding: 75px;
+  padding: 0;
   background-color: green;
 }
