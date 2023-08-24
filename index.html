@@ -7,9 +7,10 @@
   <title>The Game Hub</title>
   <style>
     body {
-      background-color: lightgreen;
       margin: 0;
       font-family: Arial, sans-serif;
+      background-image: radial-gradient(circle, #1d1d1d, #000); /* Adjust colors as needed */
+      color: #fff;
     }
     
     .game-links {
@@ -22,11 +23,16 @@
     .game-link {
       margin: 10px;
       padding: 10px 20px;
-      background-color: green;
-      border: 2px solid green;
+      background-color: rgba(0, 198, 255, 0.8);
+      border: 2px solid #0072ff;
       border-radius: 5px;
-      color: white;
+      color: #fff;
       text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    
+    .game-link:hover {
+      background-color: rgba(0, 198, 255, 1);
     }
   </style>
   <link href="style.css" rel="stylesheet" type="text/css">
