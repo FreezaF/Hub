@@ -1,36 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="shortcut icon" href="https://raw.githubusercontent.com/FreezaF/Hub/main/favicon.ico"/>
+  <link rel="icon" href="https://raw.githubusercontent.com/FreezaF/Hub/main/favicon.ico" type="image/x-icon">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Game Hub</title>
   <style>
     body {
       background-color: lightgreen;
+      margin: 0;
+      font-family: Arial, sans-serif;
     }
     
-    .x {
-      width: 50px;
-      border: 15px solid green;
-      height: 100px;
-      padding: 0;
+    .game-links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+    
+    .game-link {
+      margin: 10px;
+      padding: 10px 20px;
       background-color: green;
+      border: 2px solid green;
+      border-radius: 5px;
+      color: white;
+      text-decoration: none;
     }
   </style>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-  <center>
-    <h1>The Game Hub</h1>
-    <script src="script.js"></script>
-    <div class="x">
-      <a href="https://freezaf.github.io/Water/">Water</a><br>
-      <a href="https://freezaf.github.io/Tank/">Tank</a><br>
-      <a href="https://freezaf.github.io/DistInc/">DistInc</a><br>
-      <a href="https://freezaf.github.io/Ai/">Ai</a><br>
+  <header>
+    <h1 style="text-align: center;">The Game Hub</h1>
+  </header>
+  <main>
+    <div class="game-links">
+      <a class="game-link" href="https://freezaf.github.io/Water/">Water</a>
+      <a class="game-link" href="https://freezaf.github.io/Tank/">Tank</a>
+      <a class="game-link" href="https://freezaf.github.io/DistInc/">DistInc</a>
+      <a class="game-link" href="https://freezaf.github.io/Ai/">Ai</a>
     </div>
-  </center>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
