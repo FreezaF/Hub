@@ -17,6 +17,7 @@
       justify-content: center;
       height: 100vh;
       padding: 20px;
+      position: relative;
     }
     
     .game-links {
@@ -53,6 +54,24 @@
       font-size: 36px;
       color: #00c6ff;
     }
+    
+    .hub-link {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      background-color: #9c27b0; /* Purple color */
+      border: none;
+      border-radius: 10px;
+      color: #fff;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .hub-link:hover {
+      background-color: #7b1fa2; /* Darker shade on hover */
+    }
   </style>
   <link href="style.css" rel="stylesheet" type="text/css">
 </head>
@@ -72,8 +91,9 @@
       <a class="game-link" href="https://freezaf.github.io/Dice-Game/" target="_blank">Dice Game</a>
       <a class="game-link" href="https://freezaf.github.io/Science-Clicker/" target="_blank">Science Clicker</a>
       <a class="game-link" href="https://freezaf.github.io/3d-City-Builder/" target="_blank">3D City Builder</a>
-      <a class="game-link" href="https://freezaf.github.io/Alien-Invader/" target="_blank">Alien Invader</a> <!-- New link -->
+      <a class="game-link" href="https://freezaf.github.io/Alien-Invader/" target="_blank">Alien Invader</a>
     </div>
+    <a class="hub-link" href="https://freezaf.github.io/Hub-Jacorb90/">Hub-Jacorb90</a> <!-- New button link -->
   </main>
   <script src="script.js"></script>
 </body>
